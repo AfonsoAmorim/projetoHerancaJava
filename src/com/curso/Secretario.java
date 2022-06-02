@@ -30,6 +30,11 @@ public class Secretario extends Pessoa {
 		return "Secretario [registro=" + registro + ", nivelCargo=" + nivelCargo + ", experiencia=" + experiencia
 				+ ", nome=" + nome + ", idade=" + idade + ", dataNascimento=" + dataNascimento + ", rG=" + rG + "]";
 	}
+	@Override
+	public double salario() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 	

@@ -164,6 +164,16 @@ public class Aluno extends Pessoa {
 		return Objects.equals(nome, other.nome) && Objects.equals(numeroCpF, other.numeroCpF);
 	}
 
-	
+	@Override
+	public int pessoaMaiorIdade() {
+		// TODO Auto-generated method stub
+		return super.pessoaMaiorIdade();
+	}
+
+	@Override
+	public double salario() {
+		
+		return 0;
+	}
 	
 }
