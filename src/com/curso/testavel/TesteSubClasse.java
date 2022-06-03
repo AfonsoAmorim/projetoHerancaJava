@@ -29,6 +29,15 @@ public class TesteSubClasse {
 		testePolimorfismo(alunoA);
 		testePolimorfismo(diretorA);
 		testePolimorfismo(secretarioA);
+		
+		String login = "admin";
+		String senha = "123";
+		
+		if(secretarioA.autenticar(login, senha)) {
+			System.out.println("Acesso permitido ao secretário.");
+		}else {
+			System.out.println("Acesso negado ao secretário!");
+		}
 
 	}
 
