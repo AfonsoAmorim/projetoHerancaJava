@@ -2,6 +2,8 @@ package com.curso.testavel;
 
 import javax.swing.JOptionPane;
 
+import com.curso.Disciplina;
+
 public class Arrays {
 
 	public static void main(String[] args) {
@@ -26,6 +28,13 @@ public class Arrays {
 			
 		}
 	
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
