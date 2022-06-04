@@ -6,7 +6,7 @@ public class ThreadAfonso {
 
 		new Thread() {
 			public void run() {
-				int numero = 10;
+				int numero = 4;
 				if (numero < 5) {
 					System.out.println("Seu número é menor que 5");
 				} else {
