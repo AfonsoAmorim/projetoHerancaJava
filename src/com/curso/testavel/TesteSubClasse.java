@@ -11,7 +11,7 @@ public class TesteSubClasse {
 		Aluno alunoA = new Aluno();
 		alunoA.setNome("João Amorim");
 		alunoA.setIdade(15);
-
+		
 		Diretor diretorA = new Diretor();
 		diretorA.setNome("Alex Vargas");
 		diretorA.setrG("555666");
@@ -29,6 +29,12 @@ public class TesteSubClasse {
 		testePolimorfismo(alunoA);
 		testePolimorfismo(diretorA);
 		testePolimorfismo(secretarioA);
+		
+		
+		
+		//FuncaoAutenticacao autenticarFixa = new FuncaoAutenticacao();
+		
+		
 		
 		String login = "admin";
 		String senha = "123";
